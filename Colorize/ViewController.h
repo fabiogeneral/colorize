@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *body; // test
+@property (weak, nonatomic) IBOutlet UIButton *otherButton; // test
+
+- (IBAction)changeColor:(UIButton *)sender;
 
 @end
 
