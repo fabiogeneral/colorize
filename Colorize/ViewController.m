@@ -23,11 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+// declaring method
 - (IBAction)changeColor:(UIButton *)sender {
-    [self.otherButton setBackgroundColor:[UIColor redColor]];
-    
-    // test ------- [self.body.textStorage addAttribute:NSForegroundColorAttributeName value:sender.backgroundColor range:self.body.selectedRange];
+    [self.view setBackgroundColor:[UIColor redColor]];
 }
 
 @end

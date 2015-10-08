@@ -58,11 +58,7 @@
 		236280681BC70A57006E8F35 /* Colorize */ = {
 			isa = PBXGroup;
 			children = (
-				2362806C1BC70A57006E8F35 /* AppDelegate.h */,
-				2362806D1BC70A57006E8F35 /* AppDelegate.m */,
-				2362806F1BC70A57006E8F35 /* ViewController.h */,
-				236280701BC70A57006E8F35 /* ViewController.m */,
-				236280721BC70A57006E8F35 /* Main.storyboard */,
+				236280801BC71345006E8F35 /* GUI */,
 				236280751BC70A57006E8F35 /* Assets.xcassets */,
 				236280771BC70A57006E8F35 /* LaunchScreen.storyboard */,
 				2362807A1BC70A57006E8F35 /* Info.plist */,
@@ -77,6 +73,18 @@
 				2362806A1BC70A57006E8F35 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		236280801BC71345006E8F35 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				2362806C1BC70A57006E8F35 /* AppDelegate.h */,
+				2362806D1BC70A57006E8F35 /* AppDelegate.m */,
+				2362806F1BC70A57006E8F35 /* ViewController.h */,
+				236280701BC70A57006E8F35 /* ViewController.m */,
+				236280721BC70A57006E8F35 /* Main.storyboard */,
+			);
+			name = GUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
