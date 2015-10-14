@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231982591BCF04E300E5CEA0 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 231982571BCF04E300E5CEA0 /* sound.mp3 */; settings = {ASSET_TAGS = (); }; };
+		231982811BCF0CED00E5CEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231982801BCF0CED00E5CEA0 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		2362806B1BC70A57006E8F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362806A1BC70A57006E8F35 /* main.m */; };
 		2362806E1BC70A57006E8F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362806D1BC70A57006E8F35 /* AppDelegate.m */; };
 		236280711BC70A57006E8F35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236280701BC70A57006E8F35 /* ViewController.m */; };
 		236280741BC70A57006E8F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236280721BC70A57006E8F35 /* Main.storyboard */; };
-		236280761BC70A57006E8F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236280751BC70A57006E8F35 /* Assets.xcassets */; };
 		236280791BC70A57006E8F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236280771BC70A57006E8F35 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231982571BCF04E300E5CEA0 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		231982801BCF0CED00E5CEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236280661BC70A57006E8F35 /* Colorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2362806A1BC70A57006E8F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2362806C1BC70A57006E8F35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		2362806F1BC70A57006E8F35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		236280701BC70A57006E8F35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		236280731BC70A57006E8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		236280751BC70A57006E8F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236280781BC70A57006E8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2362807A1BC70A57006E8F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,9 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				236280801BC71345006E8F35 /* GUI */,
-				236280751BC70A57006E8F35 /* Assets.xcassets */,
-				236280771BC70A57006E8F35 /* LaunchScreen.storyboard */,
-				2362807A1BC70A57006E8F35 /* Info.plist */,
 				236280691BC70A57006E8F35 /* Supporting Files */,
 			);
 			path = Colorize;
@@ -70,6 +69,7 @@
 		236280691BC70A57006E8F35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				231982571BCF04E300E5CEA0 /* sound.mp3 */,
 				2362806A1BC70A57006E8F35 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -83,6 +83,9 @@
 				2362806F1BC70A57006E8F35 /* ViewController.h */,
 				236280701BC70A57006E8F35 /* ViewController.m */,
 				236280721BC70A57006E8F35 /* Main.storyboard */,
+				231982801BCF0CED00E5CEA0 /* Assets.xcassets */,
+				236280771BC70A57006E8F35 /* LaunchScreen.storyboard */,
+				2362807A1BC70A57006E8F35 /* Info.plist */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -146,7 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				236280791BC70A57006E8F35 /* LaunchScreen.storyboard in Resources */,
-				236280761BC70A57006E8F35 /* Assets.xcassets in Resources */,
+				231982591BCF04E300E5CEA0 /* sound.mp3 in Resources */,
+				231982811BCF0CED00E5CEA0 /* Assets.xcassets in Resources */,
 				236280741BC70A57006E8F35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				2362807F1BC70A57006E8F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
